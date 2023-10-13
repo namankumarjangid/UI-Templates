@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans";
+}
+
+.box{
+    width: 250px;
+    height: 150px;
+    background-color: yellowgreen;
+    margin: 80px auto;
+    cursor: pointer;
+}
+
+.text:hover,.box:hover{
+    animation: bounce 1s linear;
+}
+
+@keyframes bounce{
+    20%,50%,80%,to{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-30px);
+    }
+    70%{
+        transform: translateY(-15px);
+    }
+    90%{
+        transform: translateY(-4px);
+    }
+}
+

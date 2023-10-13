@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    min-height: 100vh;
+    display: flex;
+    font-family: "Roboto", Arial;
+    justify-content: center;
+    align-items: center;
+    background: #E4ECFA;
+  }
+  body .button {
+    margin: 0 12px;
+  }
+  .button {
+    padding: 16px 32px;
+    font-family: "Roboto";
+    font-weight: 500;
+    line-height: 16px;
+    border-radius: 24px;
+    display: block;
+    outline: none;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    background: #275efe;
+    color: #fff;
+    box-shadow: 0 2px 8px -1px rgba(39, 94, 254, 0.32);
+    transition: transform .44s ease, box-shadow .44s ease;
+  }
+  .button span {
+    display: flex;
+    overflow: hidden;
+    text-shadow: 0 16px 0 #fff;
+  }
+  .button span i {
+    display: block;
+    backface-visibility: hidden;
+    font-style: normal;
+    transition: transform .44s ease;
+  }
+  .button span i:nth-child(1) {
+    transition-delay: 0.05s;
+  }
+  .button span i:nth-child(2) {
+    transition-delay: 0.1s;
+  }
+  .button span i:nth-child(3) {
+    transition-delay: 0.15s;
+  }
+  .button span i:nth-child(4) {
+    transition-delay: 0.2s;
+  }
+  .button span i:nth-child(5) {
+    transition-delay: 0.25s;
+  }
+  .button span i:nth-child(6) {
+    transition-delay: 0.3s;
+  }
+  .button span i:nth-child(7) {
+    transition-delay: 0.35s;
+  }
+  .button span i:nth-child(8) {
+    transition-delay: 0.4s;
+  }
+  .button span i:nth-child(9) {
+    transition-delay: 0.45s;
+  }
+  .button span i:nth-child(10) {
+    transition-delay: 0.5s;
+  }
+  .button span i:nth-child(11) {
+    transition-delay: 0.55s;
+  }
+  .button:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 4px 20px -2px rgba(39, 94, 254, 0.5);
+  }
+  .button:hover i {
+      transform: translateY(calc(16px * -1));
+  }
+  .button.dark {
+    background: #2F3545;
+    box-shadow: 0 2px 8px -1px rgba(21, 25, 36, 0.32);
+  }
+  .button.dark:hover{
+     box-shadow: 0 4px 20px -2px rgba(21, 25, 36, 0.5); 
+  }
+  .button.reverse {
+      text-shadow: 0 calc(16px * -1) 0 #fff;
+  }
+  .button.reverse:hover i {
+      transform: translateY(calc(16px));
+      text-shadow: 0 calc(16px * -1) 0 #fff;
+  }
+  .button.white {
+    background: #fff;
+    color: #275efe;
+    box-shadow: 0 2px 8px -1px rgba(18, 22, 33, 0.04);
+  }
+  .button.white:hover {
+     box-shadow: 0 4px 20px -2px rgba(18, 22, 33, 0.12);
+  }
+  .button.white span{
+      text-shadow: 0 16px 0 #275efe;
+  }
+  .button.fast {
+      transition: transform .32s ease, box-shadow .32s ease ;
+  }
+  .button.fast span i:nth-child(1) {
+    transition-delay: 0.03s;
+  }
+  .button.fast span i:nth-child(2) {
+    transition-delay: 0.06s;
+  }
+  .button.fast span i:nth-child(3) {
+    transition-delay: 0.12s;
+  }
+  .button.fast span i:nth-child(4) {
+    transition-delay: 0.15s;
+  }
+  .button.fast span i:nth-child(5) {
+    transition-delay: 0.18s;
+  }
+  .button.fast span i:nth-child(6) {
+    transition-delay: 0.21s;
+  }
+  .button.fast span i:nth-child(7) {
+    transition-delay: 0.24s;
+  }
+  .button.fast span i:nth-child(8) {
+    transition-delay: 0.27s;
+  }
+  .button.fast span i:nth-child(9) {
+    transition-delay: 0.3s;
+  }
+  .button span i:nth-child(10) {
+    transition-delay: 0.33s;
+  }
+  .button.fast span i:nth-child(11) {
+    transition-delay: 0.36s;
+  }
+  
+  
+  
+  
+  
+  
+  
